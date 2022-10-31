@@ -8,7 +8,7 @@ public class NumberUtilitiesTest {
     public void testGetRange1A() {
         // : Given
         String expected = "0123456789";
-        int stop = 11;
+        int stop = 10;
 
         // : When
         String actual = NumberUtilities.getRange(stop);
@@ -190,7 +190,7 @@ public class NumberUtilitiesTest {
         String expected = "681012141618";
         int start = 5;
         int stop = 20;
-        int step = 5;
+        //int step = 5;
 
         // : When
         String actual = NumberUtilities.getOddNumbers(start, stop);
