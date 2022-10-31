@@ -42,12 +42,22 @@ public class NumberUtilities {
     }
 
     public static String getRange(int start, int stop) {
-        return null;
+        String str = "";
+        int i = 0;
+        for (i = start; i < stop; i++) {
+            str += i;
+        }
+        return str;
     }
 
 
     public static String getRange(int start, int stop, int step) {
-        return null;
+        String str = "";
+        int i = 0;
+        for (i = start; i < stop; i += step) {
+            str += i;
+        }
+        return str;
     }
 
 
